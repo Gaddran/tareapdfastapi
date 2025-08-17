@@ -3,7 +3,7 @@
 1. Clona el repositorio:
     ```bash
     git clone https://github.com/Gaddran/tareapdfastapi.git
-    cd tu-repo
+    cd tareapdfastapi
     ```
 2. Crea un entorno virtual (opcional pero recomendado):
     ```bash
