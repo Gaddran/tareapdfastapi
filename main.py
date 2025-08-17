@@ -24,16 +24,16 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 # validacion de los datos de entrada con Pydantic
 class PredictionRequest(BaseModel):
-    pickup_weekday: float
-    pickup_hour: float
+    pickup_weekday: int
+    pickup_hour: int
     work_hours: float
-    pickup_minute: float
-    passenger_count: float
+    pickup_minute: int
+    passenger_count: int
     trip_distance: float
     trip_time: float
     trip_speed: float
-    PULocationID: float
-    DOLocationID: float
+    PULocationID: int
+    DOLocationID: int
     RatecodeID: float
 
 @app.post("/predict")
