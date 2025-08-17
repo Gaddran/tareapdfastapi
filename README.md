@@ -2,7 +2,7 @@
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/tu-repo.git
+    git clone https://github.com/Gaddran/tareapdfastapi.git
     cd tu-repo
     ```
 2. Crea un entorno virtual (opcional pero recomendado):
